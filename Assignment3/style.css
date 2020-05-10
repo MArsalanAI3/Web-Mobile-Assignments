@@ -1,0 +1,293 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* background: white; */
+}
+.header{
+    height: 100vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+    font-weight: bold;
+        
+    
+    
+}
+nav ul ul{
+    position: absolute;
+    display: none;
+    list-style: none;
+    
+}
+nav ul li:hover>ul{
+    display: block;
+    
+}
+nav ul ul li{
+    
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+    background: white;
+}
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+
+}
+.icon-bar{
+    background-color: blue;
+}
+
+.img-responsive{
+    width: 100%;
+}
+li a{
+    color: black;
+    font-weight: bold;
+}
+.font-weight-bold	{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+ 
+}   
+
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-around;
+    padding: 50px;
+    color: white;
+    background-color: blue;
+    text-transform: uppercase;
+} 
+.one{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.main img{
+    margin-left: 45px;
+}
+.title-icon
+{
+       background-color: whitesmoke;
+   
+}    
+.main1{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    align-content: space-around;
+    margin-top: 20px;
+    
+}
+
+#box1{
+    height: auto;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 10px 2px gainsboro;
+}
+#box2{
+    height: auto;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 10px 2px gainsboro;
+}
+#box3{
+    height: auto;
+    width: 400px;
+    padding: 10px;
+    background: white;
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 0 0 10px 2px gainsboro;
+}
+#box4{
+    height: auto;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    background: white;
+    margin-left: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px gainsboro;
+}
+#box5{
+    height: auto;
+    width: 400px;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px gainsboro;
+}
+#box6{
+    height: auto;
+    width: 400px;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px gainsboro;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.head  h2{
+    display: flex;
+    margin-bottom: 5px;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 80px;
+    color: #316DC3;
+}
+.para{
+    width: 250px;
+    margin-right: 80px;
+    /* border: 5px solid whitesmoke;
+    border-radius: 10px; */
+}
+.mission{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 20px;    
+}
+#tab1 ,#tab2,#tab3,#tab4{
+    height: 200px;
+    width: 270px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 5px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+#footer {
+    padding: 1rem 0 1rem 0 ;
+    margin-top: 20px;
+    background: #000;
+}
+#footer .copyright {
+        color: #bbb;
+        font-size: 0.9rem;
+        margin: 0 0 2rem 0;
+        padding: 0;
+        text-align: center;
+    }
+
+@media screen and (max-width: 736px) {
+
+#footer {
+            padding: 3rem 0 1rem 0 ;
+        }
+
+    }
+.icon-bar {
+position: fixed;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+.icon-bar a {
+display: block;
+text-align: center;
+padding: 16px;
+transition: all 0.3s ease;
+color: white;
+font-size: 20px;
+}
+
+.icon-bar a:hover {
+background-color: #000;
+}
+
+.facebook {
+background: #3B5998;
+color: white;
+}
+
+.twitter {
+background: #55ACEE;
+color: white;
+}
+
+.google {
+background: #dd4b39;
+color: white;
+}
+
+.linkedin {
+background: #007bb5;
+color: white;
+}
+
+.youtube {
+background: #bb0000;
+color: white;
+}
+.phone{
+    background: #bbbb221;
+    color: white;
+    
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom: 50px;
+    right: 50px;
+
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}

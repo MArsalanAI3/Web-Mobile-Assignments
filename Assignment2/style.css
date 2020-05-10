@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+img,h1{
+    width: 40%;
+    height: 20;
+    margin: 1px auto;
+    display: block;
+    text-align: center;
+    color: slateblue;
+
+}
+.submitCont{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.submitCont img{
+   text-align: center;
+    width: 320px;
+}
+.submitCont h1{
+    color: #21AE44;
+
+}
+.submitCont h2 ,a{
+    color: #854FAB;
+}
+.submitCont a{
+    
+    font-size: 45px;
+    
+}
+
+textarea{
+    width:330px;
+    height:80px;
+}
+.main{
+ 
+
+    line-height: 1em;
+    margin: 10px;
+    color: #ffffff;
+    align-self: center;
+    background-color: #6b5acd;
+    
+}
+.main2 td{
+    display: table-cell;
+  vertical-align: inherit;
+}
+#button{
+ text-align: center;   
+ text-decoration: none;
+}
